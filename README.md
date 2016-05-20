@@ -3,6 +3,8 @@ Wercker Demo
 
 This project is a demo that uses wercker to build and deploy the app.  
 
+Build Status: [![Build Status](https://travis-ci.org/alianza-dev/demo-travisci.svg?branch=master)](https://travis-ci.org/alianza-dev/demo-travisci)     
+
 ## Overview
 
 For this project we are going to be using a project created by [doomspark](https://github.com/doomspark) that
