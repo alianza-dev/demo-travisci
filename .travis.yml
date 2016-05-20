@@ -7,5 +7,29 @@ services:
 before_install:
   - docker ps -a
 
+install:
+  - docker ps -a
+
+before_script:
+  - docker ps -a
+
 script:
+  - docker ps -a
+
+after_success:
+  - docker ps -a
+
+after_failure:
+  - docker ps -a
+
+before_deploy:
+  - docker ps -a
+
+deploy:
+  - docker ps -a
+
+after_deploy:
+  - docker ps -a
+
+after_script:
   - docker ps -a
